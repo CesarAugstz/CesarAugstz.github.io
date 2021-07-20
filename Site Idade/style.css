@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(24, 24, 24);
+    height: 50vh;
+}
+
+.title {
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 30px;
+    max-width: 35%;
+    margin: 1.5rem auto;
+    font: 3rem Georgia, sans-serif;
+    border: 2px solid #000;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 550px;
+    margin: 3rem auto;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.submain {
+    margin: 1rem 2rem;
+}
+
+.ageIn {
+    display: flex;
+    align-items: center;
+}
+
+.inputYear {
+    text-align: center;
+    height: 1.2rem;
+    margin-left: 1rem;
+}
+
+.sex {
+    display: flex;
+    align-items: center;
+}
+
+.radioSex {
+    margin-left: 1rem;
+}
+.labelMale {
+    margin-right: 1rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #000;
+    color: #ff5;
+    border: 2px solid #fff;
+    height: 40px;
+    width: 5rem;
+    margin-left: 3rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.btn:active {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.ageText {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+}
