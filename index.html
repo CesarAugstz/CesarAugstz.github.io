@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Idade</title>
+</head>
+<body>
+    <header class="title">Verificador de Idade</header>
+    <main class="main">
+        <div class="submain">
+            <div class="ageIn">
+                <h1 class="ageIn2">Year of Birth:</h1>
+                <input type="number" id="inputYear" placeholder="Put a Year" class="inputYear">       
+            </div>
+            <div class="sex">
+                <h1 class="sexText">Sex:</h1>
+                <div class="radioSex">
+                    <input type="radio" class="radioMale" name="sex" id="Male" value="sexMale" checked>
+                    <label class="labelMale" for="Male">Male</label>
+    
+                    <input type="radio" name="sex" id="Female" value="sexFemale" >
+                    <label class="labelF" for="Female">Female</label> 
+            
+                    <input type="button" value="SUBMIT" class="btn" id="btn">
+                </div>
+            </div>
+
+            <h1 class="ageText" id="ageText">You</h1>
+            <div ><img class="img" id="img" src="./img/perfil.jpg" height="250px" width="250px"/> </div>
+        </div>  
+    </main>
+
+</body>
+</html>
