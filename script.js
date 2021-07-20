@@ -38,7 +38,7 @@ function calcAge(){
             }
             else{
                 localResult.innerHTML = (`Você é uma VELHA de ${age} anos`)
-                document.getElementById("img").src = ("./img/dilma.jpg")
+                document.getElementById("img").src = ("./img/Dilma.jpg")
             }
             break;
 
